@@ -1,0 +1,124 @@
+/*스폰서 인덱스 { */
+#nav{display: none}
+#footer{display: none}
+.footer-in{display: none}
+footer{display: none}
+#bottomNavigation{display: none}
+.univ-intro-wrap{display: none}
+.bank-info{display: none}
+#main{margin-bottom:0}
+#cz span{display: inline-block; transform: rotate(-0.15deg)}
+#cz .point-blue{color:#0060ae; font-weight: bold}
+#cz #ul-sponsor-content{width: 100%; margin-top:70px; overflow: hidden}
+#cz #ul-sponsor-content li{height: auto; float: left; width: calc(20% - 24px); margin-right: 30px;display: inline-block; margin-bottom:40px; position: relative}
+#cz #ul-sponsor-content li .sponsor-img{width: 100%; height: 100%}
+#cz #ul-sponsor-content li:nth-child(5n){margin-right: 0}
+#cz .sponsor-title-wrap p{font-size: 40px;letter-spacing: -1px;line-height: 50px;color: #363636;font-weight: 500;font-family: "paybooc-Medium"; white-space: nowrap}
+#cz #section-sponsor{max-width: 1400px; width: 100%; margin-left: auto; margin-right: auto;padding-left: 20px; padding-right: 20px; }
+#cz #ul-sponsor-head-menu{position: relative; text-align: right}
+#cz #ul-sponsor-head-menu li{font-size: 15px;letter-spacing: 0;line-height: 45px;color: #707070;font-weight: 500;font-family: "paybooc-Medium"; display: inline-block; margin-right: 10px}
+#cz #ul-sponsor-head-menu li:after{content:""; position: absolute; border-right: 1px solid #707070; height: 15px; top: 15px; margin-left: 5px}
+#cz #ul-sponsor-head-menu li:last-child:after{content:none}
+#cz .sponsor-search-wrap{position: relative}
+#cz .sponsor-search-icon{position:absolute; top:58%; right: 15px; transform: translateY(-50%); cursor: pointer}
+#cz .sponsor-search-box{height: 45px; width: 100%; border-radius:10px; margin-top:9px}
+#cz .sponsor-symbol-wrap{font-size: 15px; letter-spacing: 0; line-height: 45px; color: #555555; font-weight: 500; font-family: "paybooc-Medium"; display: inline; bottom:-47px; white-space: nowrap; position: absolute}
+#cz .sponsor-action-menu{width: 100%; overflow: hidden}
+#cz .delete-button{font-size: 15px;letter-spacing: 0;color: #636363;/*font-weight: bold;*/font-family: "paybooc-Bold"; background-color: #e2e2e2; display: inline-block; height: 45px; width: 110px; line-height: 45px; text-align: center; cursor: pointer; float: left; border-radius: 7px}
+#cz .write-button{font-size: 15px;letter-spacing: 0;color: #ffffff;/*font-weight: bold;*/font-family: "paybooc-Bold"; background-color: #262626; display: inline-block; height: 45px; width: 110px; line-height: 45px; text-align: center; cursor: pointer; float: right; border-radius: 7px}
+#cz .ul-paging li{display: inline-block; width: 30px; height: 30px; text-align: center; line-height: 30px; border-radius: 4px; cursor: pointer; border:1px solid #b6b6b6}
+#cz .ul-paging li:last-child{margin-right: 0}
+#cz .ul-paging li.on{background-color: #262626; color:#ffffff;}
+#cz #paging-wrap{text-align: center}
+#cz .copyright-wrap{text-align: center; position: relative}
+#cz .copyright-wrap p{font-size: 13px;line-height: 25px;color: #555555;font-family: "paybooc-Medium"; }
+#cz #index-all-wrap .copyright-wrap{height: 150px}
+#cz .li-sponsor-first-content{position: relative}
+#cz .sponsor-list-img{width: 100%}
+#cz .sponsor-list{width: 100%}
+#cz .sponsor-more-button{position: absolute;transform: translate(-50%, -50%);top:50%;left: 50%;display: none; height: 45px;width:145px; text-align: center}
+#cz .sponsor-more-button p{width: 100%; height: 100%;color:#ffffff;background-color: #f36f21;line-height: 45px; text-align: center;font-size: 14px;letter-spacing: 0;font-weight: 800;font-family: "paybooc-ExtraBold"; border-radius: 25px; display: inline-block}
+#cz #index-all-wrap{background-image: url("/img/sponsor_background.png"); background-position: bottom; background-repeat: no-repeat; background-size: contain; background-color: #ebebeb;
+min-height: 100vh;
+}
+/*스폰서 인덱스 } */
+
+
+@media(max-width: 1280px) {
+    #cz #ul-sponsor-content .li-sponsor-first-content {width:100%;font-size: 40px;letter-spacing: -1px;color: #363636;font-weight: 500;font-family: "paybooc-Medium"; margin-bottom:0; margin-bottom:30px}
+    #cz .sponsor-title-wrap p{display: inline-block}
+    #cz #ul-sponsor-content{}
+    #cz .sponsor-symbol-wrap{display: none;}
+    #cz .sponsor-search-box{width: 256px; border:1px solid #c1c1c1}
+    #cz .sponsor-search-wrap{display: inline-block}
+    #cz #ul-sponsor-content li:nth-child(5n){margin-right: 30px;}
+    #cz #ul-sponsor-content li:nth-child(3n+1){margin-right: 0}
+    #cz #ul-sponsor-content li{ width:calc(33.3333% - 30px); height: auto }
+}
+
+@media(max-width: 768px) {
+    #cz #ul-sponsor-content li:nth-child(5n){margin-right: 30px;}
+    #cz #ul-sponsor-content li:nth-child(3n+1){margin-right: 30px;}
+    #cz #ul-sponsor-content li:nth-child(2n+1){margin-right: 0}
+    #cz #ul-sponsor-content li{ width:calc(50% - 15px); height: auto }
+    #cz .sponsor-title-wrap p{font-size: 30px}
+    #cz .sponsor-more-button{width: 100px; height: 30px;}
+    #cz .sponsor-more-button p{line-height: 30px; font-size: 12px}
+    #cz .sponsor-title-wrap p img{display: none}
+}
+
+
+/*스폰서 쇼 { */
+
+#section-sponsor{}
+#cz #all-wrap{background-image: url("/img/sponsor_background.png"); padding-bottom:130px; background-position: bottom; background-repeat: no-repeat; background-size: contain; background-color: #ebebeb}
+#cz #section-sponsor-show{max-width: 1400px; width: 100%; margin-left: auto; margin-right: auto}
+#cz .show-img{width: 100%; height: 100%}
+#cz #sponsor-show-all{width: 100%; display: block; margin-top:60px; overflow: hidden; background-color: #ffffff;}
+#cz #sponsor-show-all > div{float: left; }
+#cz #sponsor-show-all > div:last-child{padding-left: 50px}
+#cz .show-img-box{width: 50%; background-color: #ebebeb}
+#cz .show-content-all{width: 50%}
+#cz .show-text-box h2{font-size: 30px;letter-spacing: -1px;color: #252525;font-weight: 800;font-family: "paybooc-ExtraBold"; margin-top:50px; margin-bottom:60px}
+#cz .text-pointer{font-size: 16px;letter-spacing: 0;color: #252525;font-weight: 800;font-family: "paybooc-ExtraBold";}
+#cz .show-text-box p{font-size: 16px;letter-spacing: 0;color: #252525;font-family: "paybooc-Medium"; margin-bottom:20px; text-align: center}
+#cz .sponsor-map-button{background-color: #000000;color:#ffffff;display: inline-block;height: 50px;width: 270px;border-radius: 30px;font-size: 16px;letter-spacing: 0;color: #ffffff;font-weight: 800;font-family: "paybooc-ExtraBold";line-height: 50px}
+#cz .show-button-wrap{width: 100%;}
+#cz .sponsor-list-button{text-align: right;background-color: #e1e1e1;font-size: 15px;letter-spacing: 0;display: inline-block;line-height: 30px;color: #636363;/*font-weight: bold;*/font-family: "paybooc-Bold";}
+#cz .sponsor-map-box{text-align: center; margin-top:40px; margin-bottom:160px}
+#cz .sponsor-list-box{text-align: right; padding-right: 50px}
+#cz .sponsor-list-button{width: 80px; height: 45px; line-height: 45px; text-align: center; border-radius: 10px}
+#cz .delete-button{font-size: 12px;height: 40px;width: 90px;line-height: 40px;}
+#cz .write-button{font-size: 12px;height: 40px;width: 90px;line-height: 40px;}
+#cz .ul-paging li:nth-child(5){display: none}
+#cz .ul-paging li:nth-child(6){display: none}
+#cz .ul-paging li:nth-child(7){display: none}
+#cz .ul-paging li:nth-child(8){display: none}
+#cz .ul-paging li:nth-child(9){display: none}
+#cz .ul-paging li:nth-child(10){display: none}
+#cz #paging-wrap{margin-top:30px}
+#cz .copyright-wrap p{font-size: 13px;line-height: 20px;color: #555555;font-weight: 500;font-family: "paybooc-Medium";text-align: center; margin-top:50px}
+
+
+@media(max-width: 1280px) {
+    #cz #sponsor-show-all > div {float: initial;padding-left: 20px;padding-right: 20px;width: 100%}
+    #cz .sponsor-list-box{margin-bottom:50px}
+}
+
+@media(max-width: 768px) {
+    #cz .show-text-box h2{font-size: 20px;}
+    #cz .show-text-box p{font-size: 15px;}
+    #cz .text-pointer{font-size: 15px; display: block; margin-bottom:10px}
+    #cz .sponsor-map-box{margin-bottom:150px}
+    #cz .sponsor-map-button{font-size: 16px;}
+    #cz .show-text-box h2{margin-bottom:30px; margin-top:20px}
+    #cz .copyright-wrap p{margin-top:0; padding-top:40px; height: 190px}
+    #cz .sponsor-list-box{margin-bottom:20px; padding-right: 20px}
+    #cz #sponsor-show-all > div:last-child{padding-left: 0}
+    #cz #sponsor-show-all > div{padding:0}
+    #cz #sponsor-show-all{margin-left: 10px; margin-right: 10px; width:calc(100% - 20px)}
+    #cz #section-sponsor-show{background-color: #ebebeb; width: 100%}
+    #cz #all-wrap{padding-bottom:0}
+
+
+}

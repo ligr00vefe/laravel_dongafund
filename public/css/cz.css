@@ -1,0 +1,289 @@
+/*by sung*/
+
+/*공통 {*/
+#cz #common-content{margin: 100px auto 0 auto; max-width: 1250px; width:100%;}
+#cz .color-blue{color:#019BDE;font-size: 18px; line-height: 28px; font-family: "paybooc-bold"; letter-spacing: -0.45px;opacity: 1;}
+#cz .deep-color{text-align: left; font-size: 18px; line-height: 28px; font-family: "paybooc-bold"; letter-spacing: -0.45px;color: #555555;}
+#cz span{display: inline-block; transform: rotate(-0.15deg)}
+#cz .common-content-wrap span{display: block}
+#cz .donor-lounge__menu span{display: block!important;}
+#cz .donor-lounge__menu ul{overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+#cz .donor-lounge__menu ul::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+
+/*명예의 전당 { */
+#cz .title-sector{margin-bottom: 30px;padding-left: 40px;}
+#cz .title-sector h2{font-size: 24px;font-family: "paybooc-Bold";color: #555555;letter-spacing: -0.6px;line-height: 36px;margin-bottom: 10px;padding-top: 35px;}
+#cz .title-sector p{letter-spacing: -0.35px;opacity: 1;color: #5f5f5f; font-size: 16px; line-height: 24px; font-family: "paybooc-Medium"}
+#cz .content-sector{text-align: center}
+#cz .content-ul-selector{padding-top:45px; display: inline-block; width: 43%}
+#cz .content-ul-selector li:hover{border-bottom: 2px solid #0061ae;color:#0061ae;transition: 0.5s}
+#cz .content-ul-selector li.focused{border-bottom: 2px solid #0061ae;color:#0061ae}
+#cz .content-ul-selector li{width: 25%;color: #707070;border-bottom: 2px solid #707070;padding-bottom:10px; float: left;font-size: 16px;letter-spacing: 0;line-height: 25px;font-family: "paybooc-Medium";text-align: center;}
+#cz .content-ul-selector li a{width: 100%;height: 100%;font-size: 16px;letter-spacing: 0;line-height: 25px;font-weight: 800}
+#cz #main-block{margin-top:30px;}
+#cz .main-partition{border-radius: 10px; box-shadow: 0px 2px 6px #b3b3b3; border: 1px solid #e1e1e1; background-color: #ffffff;}
+
+
+
+/*30억원 이상*/
+#cz .honor-list {width: 100%; margin-top:40px; padding: 0 50px 50px 50px;}
+#cz .honor-list table{height: 100%}
+#cz .honor-list tbody{}
+#cz .honor-list tbody tr{margin-bottom:30px; overflow: hidden}
+#cz .honor-list td{width: calc(20% - 24px); display: inline-block;margin-right: 30px; float: left}
+#cz .honor-list td:nth-child(5){margin-right: 0}
+#cz .honor-list tbody td{overflow: auto;position: relative;background:linear-gradient(60deg, #d0b57a, #fbdb96);border-radius:10px;padding:4px;display: inline-block;}
+#cz .honor-list .honor-img{margin-top:25px; margin-bottom:40px; max-width: 110px; max-height: 110px; width: 100%; height: 100%}
+#cz .honor-list .honor-column{text-align: center; z-index: 2; background-color: #ffffff;height: 294px; max-height: 300px; overflow: hidden; position: relative; border-radius: 8px}
+#cz .honor-list .honor-name{font-size: 18px;color: #363636;/*font-weight: bold;*/letter-spacing: -1px;line-height: 30px;font-family: "paybooc-Bold";}
+#cz .honor-list .honor-belong{font-size: 15px;line-height: 30px;color: #959595;/*font-weight: bold;*/ height: 18px;font-family: "paybooc-Bold";}
+#cz .honor-list .honor-link:hover{font-size: 14px;line-height: 30px;color: #ffffff;font-weight: bold; background-color: #d0b57a;}
+#cz .honor-list .honor-link{border-radius: 30px; font-size: 14px;line-height: 30px;color: #898989;font-weight: 500; width: 100%; max-width: 120px; display: inline-block; margin-top:20px; border:1px solid; position: absolute; transform: translate(-50%, -50%); left: 50%; top: 82% ;font-family: "paybooc-Bold";}
+
+
+/*10억원 이상, 1억원 이상 */
+#cz .honor-list2 {width: 100%; margin-top:40px; padding: 0 50px 30px 50px;}
+#cz .honor-list2 table{height: 100%}
+#cz .honor-list2 tbody{}
+#cz .honor-list2 tbody tr{margin-bottom:30px; overflow: hidden}
+#cz .honor-list2 td{width: calc(20% - 24px);display: inline-block; float: left; margin-right: 30px;}
+#cz .honor-list2 td:nth-child(5n){margin-right: 0}
+#cz .honor-list2 .honor-img{margin-top:30px; margin-bottom:20px; max-width: 110px; max-height: 110px; width: 100%; height: 100%}
+#cz .honor-list2 tbody td{flex-wrap:wrap; overflow: auto;position: relative; border:1px solid #c1c1c1  ;display: inline-block; border-radius: 10px; margin-bottom:30px}
+#cz .honor-list2 .honor-column{text-align: center; z-index: 2; background-color: #ffffff; height: 235px; overflow: hidden; position: relative; }
+#cz .honor-list2 .honor-name{    font-size: 18px;color: #363636;/*font-weight: bold;*/letter-spacing: -1px;line-height: 30px;font-family: "paybooc-Bold";}
+#cz .honor-list2 .honor-belong{font-size: 15px;line-height: 30px;color: #959595;font-weight: bold; height: 18px}
+#cz .honor-list2 .honor-link:hover{font-size: 14px;line-height: 30px;color: #ffffff;font-weight: bold; background-color: #d0b57a;}
+#cz .honor-list2 .honor-link{border-radius: 30px; font-size: 14px;line-height: 30px;color: #898989;font-weight: 500; width: 100%; max-width: 120px; display: inline-block; margin-top:20px; border:1px solid; position: absolute; transform: translate(-50%, -50%); left: 50%; top: 82% }
+
+
+/*1천만원대*/
+#cz .honor-list3 {width: 100%; margin-top:40px; padding: 0 50px 30px 50px;}
+#cz .honor-list3 table{height: 100%}
+#cz .honor-list3 tbody{}
+#cz .honor-list3 tbody tr{margin-bottom:30px; overflow: hidden}
+#cz .honor-list3 td{width: calc(20% - 24px);display: inline-block;margin-right: 30px; float: left}
+#cz .honor-list3 td:nth-child(5n){margin-right: 0}
+#cz .honor-list3 tbody td{overflow: auto;position: relative; border:1px solid #c1c1c1  ;display: inline-block; margin-bottom:30px; border-radius: 3px}
+#cz .honor-list3 .honor-column{text-align: center; z-index: 2; background-color: #ffffff;height: 75px; line-height: 75px; overflow: hidden; position: relative; border-radius: 8px}
+#cz .honor-list3 .honor-name{font-size: 18px;color: #363636;font-weight: bold;letter-spacing: -1px;font-family: "paybooc-Medium";}
+/*명예의 전당 } */
+
+
+/*명예의 전당 반응형 {*/
+@media (max-width: 1280px) {
+    #cz .title-sector p{    font-size: 14px;
+        line-height: 22px;
+        font-family: "paybooc-Medium";
+        letter-spacing: -0.35px;
+        color: #707070;
+        opacity: 1;
+    }
+    #cz .title-sector h2{text-align: left;font-size: 18px;line-height: 28px;font-family: "paybooc-bold";letter-spacing: -0.45px;color: #555555;opacity: 1;margin-bottom: 8px;}
+    #cz .honor-list td{width: calc(50% - 30px); margin-bottom:40px}
+    #cz .content-ul-selector li{width: 18%}
+    #cz .honor-list .honor-link{height: 40px; line-height: 40px}
+    #cz .honor-list .honor-link{top:80%}
+    #cz .honor-list .honor-link:hover{line-height: 40px}
+    #cz .content-ul-selector{width: 67%}
+    #cz .content-ul-selector li{width : 33.33333%; margin-bottom:25px}
+    #cz .main-partition{margin-left: 20px; margin-right: 20px}
+
+
+    #cz .honor-list2 td{width: calc(33.33% - 20px);}
+    #cz .honor-list2 td:nth-child(5n){margin-right: 30px}
+    #cz .honor-list2 td:nth-child(3n){margin-right: 0}
+
+
+
+
+    #cz .honor-list3 td{width: calc(33.33% - 30px);}
+    #cz .honor-list3 td:nth-child(5n){margin-right: 30px}
+    #cz .honor-list3 .honor-name{letter-spacing: 0;color: #363636; font-weight: bold;line-height: 60px}
+    #cz .honor-list3 .honor-column{height: 60px;}
+
+
+}
+@media(max-width: 768px)
+{
+
+    #cz .title-sector h2{line-height: 28px;padding-top: 16px;margin-bottom: 6px;font-size: 18px;}
+    #cz .title-sector p{line-height: 22px;font-size: 14px;}
+    #cz .honor-list2 td{width: calc(50% - 10px); margin-right: 20px}
+    #cz .honor-list2 td:nth-child(5n){margin-right: 20px}
+    #cz .honor-list2 td:nth-child(3n){margin-right: 20px}
+    #cz .honor-list2 td:nth-child(2n){margin-right: 0}
+    #cz .honor-list2 .honor-img{max-height: 60px; max-width: 60px}
+    #cz .honor-list2{padding-left: 15px; padding-right: 15px}
+    #cz .honor-list2 .honor-column{height: 125px}
+    #cz .honor-list2 .honor-img{margin-top:15px; margin-bottom:10px}
+    #cz .honor-list2 .honor-name{font-size: 14px;letter-spacing: 0;line-height: 16px;color: #363636;/*font-weight: bold;*/font-family: "paybooc-Bold";}
+    #cz .honor-list2 .honor-belong{font-size: 12px;letter-spacing: 0;line-height: 16px;color: #959595;/*font-weight: bold;*/font-family: "paybooc-Bold";}
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    #cz .main-border-line{border-radius: 30px;}
+    #cz .content-ul-selector li{width: 50%;border:1px solid #cccccc;padding-bottom:0;}
+    #cz .honor-list td{width: calc(100%);}
+    #cz .honor-list3 tbody td{margin-right: 20px}
+    #cz .honor-list3 td{width: calc(50% - 10px)}
+    #cz .honor-list3{padding:20px}
+    #cz .honor-list3 .honor-name{font-size: 14px;letter-spacing: 0;line-height: 16px;color: #363636;/*font-weight: bold;*/ font-family: "paybooc-Bold";}
+    #cz .honor-list3 tbody td:nth-child(2n){margin-right: 0}
+    #cz .content-ul-selector{width: 100%; padding-left: 15px; padding-right: 15px}
+    #cz .honor-list3 .honor-column{height: 45px}
+    #cz .honor-list3 .honor-name{line-height: 45px}
+    #cz .honor-list3 td:nth-child(5n){margin-right: 20px}
+    #cz .title-sector{margin-bottom:16px; padding-left: 24px}
+
+}
+
+/*명예의 전당 반응형 }*/
+
+/*기부자 라운지 { */
+#cz .fame-title-sector{margin-bottom:30px; padding-left: 40px}
+#cz .fame-title-sector h2{font-size: 24px;font-family: "paybooc-Bold";color: #555555;letter-spacing: -0.6px;line-height: 36px;margin-bottom: 10px; padding-top:35px}
+#cz .fame-title-sector p{color: #5f5f5f; font-size: 16px; line-height: 24px; font-family: "paybooc-Medium"; font-size: 16px}
+#cz .ul-common-menu li i{color:#969696; text-align: center;letter-spacing: -0.9px;opacity: 1; font-size: 33px;}
+#cz .ul-common-menu li{display: inline-block; width: 106px;height: 50px; }
+#cz .ul-common-menu{text-align: center; margin-bottom:20px; padding-top:20px}
+#cz .common-menu-text{letter-spacing: -0.4px;color: #969696;opacity: 1; margin-top:4px;text-align: center; font-size: 16px; line-height: 24px; font-family: "paybooc-Medium" }
+#cz .legend-wrap h3{text-align: left; font-size: 18px; line-height: 28px; font-family: 'paybooc-bold'; letter-spacing: -0.45px;color: #555555;opacity: 1; padding-left: 20px; margin-top:25px; margin-bottom:10px}
+#cz .legend-content{width:calc(33.3333% - 20px); display: inline-block; float: left; }
+#cz .legend-content:last-child{display: none;}
+#cz .legend-image{width: 100%; height: 100%; max-height: 230px}
+
+#cz .legend-subject{text-align: center; font-size: 18px; line-height: 28px; font-family: 'paybooc-bold'; letter-spacing: -0.45px;color: #555555;opacity: 1; margin-top:10px; margin-bottom:14px}
+#cz .legend-text{text-align: center; font-size: 16px; line-height: 24px; font-family: "paybooc-bold"; letter-spacing: -0.4px;color: #555555;opacity: 1;}
+#cz #fame-table-list h3{position: relative; text-align: left; font-size: 18px; line-height: 28px; font-family: "paybooc-bold"; letter-spacing: -0.45px;color: #555555;opacity: 1; padding-left: 20px; margin-top:50px; margin-bottom:10px}
+#cz #table-all-wrap{overflow: hidden}
+#cz .fame-table{margin-right: 30px; font-size: 18px; line-height: 28px; font-family: "paybooc-bold"; letter-spacing: -0.45px;color: #555555;opacity: 1; float: left; width: calc(33.333% - 30px); overflow: hidden;}
+#cz #table-all-wrap .fame-table:nth-child(3n){margin-right: 0}
+#cz #table-all-wrap{ overflow: hidden}
+#cz .common-content-wrap{box-shadow: 0 2px 6px #00000033; border-radius: 20px; padding-bottom:45px; padding-left: 40px; padding-right: 40px; background-color: #ffffff;}
+#cz .donation-level{padding-left: 25px; font-size: 16px; line-height: 35px; font-family: "paybooc-Medium"; letter-spacing: -0.4px;color: #555555;opacity: 1;}
+#cz .donation-benefits{text-align: right; white-space: nowrap; font-size: 16px; line-height: 24px; font-family: "paybooc-Medium"; letter-spacing: -0.4px;color: #555555;opacity: 1; padding-right: 24px}
+#cz .circle-icon{background-color:#0061AE; width: 7px; height: 7px; display:inline-block; border-radius: 50%;  position: absolute; left: 0; top: 51%; transform: translateY(-50%);}
+#cz .fame-table thead{border-bottom: 4px solid #019BDE}
+#cz .fame-table thead th{height: 100px; width: 100%; word-break: keep-all; text-align: left; display: table-cell; text-indent: -15px; padding-left: 31px; padding-top:28px; padding-bottom:15px}
+#cz #common-menu-list{border-bottom:1px solid #D7D7D7;}
+#cz #fame-info-wrap{margin-top:10px}
+#cz #fame-info-wrap p{text-align: left;font-size: 14px; line-height: 22px; font-family: "paybooc-Medium"; letter-spacing: -0.35px;color: #707070;opacity: 1;}
+#cz #fame-info-wrap p i{margin-right: 12px}
+#cz .common-li{cursor: pointer}
+#cz .common-li:hover i{color:#0061AE}
+#cz .common-li:hover p{color:#0061AE}
+#cz .legend-list{overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*기부자 라운지 } */
+
+/*기부자 라운지 반응형*/
+@media(max-width: 1280px)
+{
+    #cz .common-content-wrap{padding-left: 20px; padding-right: 20px; box-shadow: 0 2px 6px #00000033}
+    #cz .fame-title-sector{padding-left: 40px; margin-bottom:20px; }
+    #cz .fame-title-sector h2{text-align: left;font-size: 18px; line-height: 28px; font-family: "paybooc-bold"; letter-spacing: -0.45px;color: #555555;opacity: 1; margin-bottom:8px}
+    #cz .fame-title-sector p{font-size: 14px; line-height: 22px; font-family: "paybooc-Medium"; letter-spacing: -0.35px;color: #707070;opacity: 1;}
+    #cz .ul-common-menu li{width:80px}
+    #cz .ul-common-menu li i{font-size: 28px}
+    #cz .common-menu-text{text-align: center;font-size: 13px; line-height: 16px; font-family: "paybooc-Medium"; letter-spacing: -0.39px;color: #969696;opacity: 1;}
+    #cz .legend-wrap h3{font-size: 16px; line-height: 24px; font-family: "paybooc-bold"; letter-spacing: -0.4px;color: #555555;opacity: 1;}
+    #cz .legend-content{width: calc(50% - 14px); margin-bottom:10px;}
+    #cz .legend-content:last-child{display: block;}
+
+
+
+
+    #cz .legend-image{width:100%; max-height: 194px}
+    #cz .legend-content:nth-child(2){padding-right: 0;}
+
+    #cz #fame-table-list h3{margin-top:15px; text-align: left; font-size: 16px; line-height: 24px; font-family: "paybooc-bold"; letter-spacing: -0.4px;color: #555555;opacity: 1;}
+    #cz .fame-table thead th{text-align: left; font-size:16px; line-height: 24px; font-family: "paybooc-bold";  letter-spacing: -0.4px;color: #555555;opacity: 1;}
+    #cz .fame-table{width: calc(50% - 9px); height: 325px}
+    #cz #table-all-wrap .fame-table:nth-child(2n){margin-right: 0}
+    #cz #table-all-wrap .fame-table:nth-child(2n -1){margin-right: 18px}
+    #cz #fame-view{margin:0 24px;}
+    #cz .donation-benefits{padding-right: 12px}
+}
+
+@media(max-width: 768px)
+{
+    #cz .fame-title-sector{margin-bottom:16px; padding-left: 24px}
+    #cz .fame-title-sector h2{line-height: 28px; padding-top:16px; margin-bottom:6px; font-size: 18px;}
+    #cz .fame-title-sector p{line-height: 22px; font-size: 14px}
+    #cz .legend-image{max-height: 162px}
+    #cz .ul-common-menu li i{font-size: 20px}
+    #cz .ul-common-menu li{width: 50px}
+    #cz .fame-table{width:100%}
+    #cz #table-all-wrap .fame-table:nth-child(2n -1){margin-right: 0}
+    #cz .fame-table thead th{text-align: left;font-size: 16px; line-height: 24px; font-family: "paybooc-bold"; letter-spacing: -0.4px;color: #555555;opacity: 1; width: 100%}
+    #cz .legend-text{text-align: center;font-size: 14px; line-height: 22px; font-family: "paybooc-Medium"; letter-spacing: -0.35px;color: #555555;opacity: 1;}
+    #cz .common-content-wrap{padding-left: 10px; padding-right: 10px; box-shadow: 0px 2px 6px #00000033}
+    #cz #fame-view{margin: 0 12px}
+    #cz .content-ul-selector li{margin-bottom:0; height: 45px; line-height: 45px}
+    #cz .content-ul-selector li.on{border-bottom: 1px solid #0061ae;}
+    #cz .content-ul-selector li:hover{border-bottom: 1px solid #0061ae;}
+    #cz .fame-table.table-06 {height: auto}
+    #cz .legend-subject{text-align: center;font-size: 18px; line-height: 28px; font-family: "paybooc-bold"; letter-spacing: -0.45px;color: #555555;opacity: 1;}
+    #cz .legend-content{width: calc(100%); margin-bottom:35px; margin-right: 0; padding-right: 0}
+}
+
+/*세제혜택 { */
+#cz #benefit-view span{display: inline-block}
+#cz #benefit-table-list h3{position: relative; text-align: left; font-size: 18px; line-height: 28px; font-family:"paybooc-bold"; letter-spacing: -0.45px;color: #555555;opacity: 1; padding-left: 20px; margin-top:50px; margin-bottom:10px}
+#cz .benefit-table{margin-right: 30px; font-size: 18px; line-height: 28px; font-family: "paybooc-bold"; letter-spacing: -0.45px;color: #555555;opacity: 1; float: left; width: calc(33.333% - 30px); overflow: hidden;}
+#cz #table-all-wrap .benefit-table:nth-child(3n){margin-right: 0}
+#cz .benefit-table thead{border-bottom: 4px solid #019BDE;}
+#cz .benefit-table thead th{height: 100px; width: 100%; word-break: keep-all; text-align: left; display: table-cell; text-indent: -15px; padding-left: 50px; padding-top:28px; padding-bottom:15px; vertical-align: top;}
+#cz #benefit-info-wrap{margin-top:10px}
+#cz #benefit-info-wrap p{text-align: left; font-size: 14px; line-height: 22px; font-family: "paybooc-Medium"; letter-spacing: -0.35px;color: #707070;opacity: 1;}
+#cz #benefit-info-wrap p i{margin-right: 12px}
+#cz .benefit-table tbody tr:nth-child(1) td{padding-top:40px}
+#cz #benefit-view .donation-level{text-align: left; font-size: 18px; line-height: 28px; font-family: "paybooc-Medium"; letter-spacing: -0.45px;color: #555555;opacity: 1; padding-bottom:30px;padding-left: 20px; vertical-align: top;}
+#cz #benefit-view .info-text{padding-top:50px}
+#cz #benefit-view .donation-benefits{vertical-align: top}
+#cz #benefit-view .common-content-wrap{padding-left: 0; padding-right: 0}
+#cz #benefit-view #benefit-table-wrap{padding-left: 40px; padding-right: 40px}
+@media(max-width: 1200px){
+    #cz #benefit-view{margin:0 24px;}
+    #cz #benefit-table-list h3{margin-top:15px; text-align: left; font-size: 16px; line-height: 24px; font-family:"paybooc-bold"; letter-spacing: -0.4px;color: #555555;opacity: 1;}
+    #cz .benefit-table thead th{text-align: left;font-size: 16px; line-height: 24px; font-family: "paybooc-bold"; letter-spacing: -0.4px;color: #555555;opacity: 1;}
+    #cz .benefit-table{width: calc(50% - 9px); height: 325px}
+    #cz #table-all-wrap .benefit-table:nth-child(2n){margin-right: 0}
+    #cz #table-all-wrap .benefit-table:nth-child(2n -1){margin-right: 18px}
+}
+
+@media(max-width: 768px){
+    #cz #benefit-view #benefit-table-wrap{padding-left: 24px; padding-right: 24px}
+    #cz #benefit-view{margin: 0 12px}
+    #cz .benefit-table{width:100%}
+    #cz #table-all-wrap .benefit-table:nth-child(2n -1){margin-right: 0}
+    #cz .benefit-table thead th{text-align: left; font-size: 16px; line-height: 24px; font-family: "paybooc-bold"; letter-spacing: -0.4px;color: #555555;opacity: 1; width: 100%}
+    #cz .benefit-table.table-06 {height: auto}
+    #cz .color-blue{font-size: 16px}
+    #cz .deep-color{font-size: 16px}
+    #cz .benefit-table tbody tr:nth-child(1) td{padding-top:10px}
+    #cz #benefit-view .donation-level{font-size: 16px; padding-left: 0; padding-right: 0}
+    #cz #benefit-view{margin:0 10px;}
+}
+
+
+
+
+
+
